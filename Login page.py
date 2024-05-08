@@ -23,7 +23,7 @@ def login():
         messagebox.showinfo('Success', 'Login successful') 
         sys.exit() 
     else:
-        messagebox.showerror('Error', 'Invalid username or password')
+        messagebox.showerror('Error', 'Invalid account number or password')
 
 #Creating the  main label and additional label
 message = Label(root,text='WELCOME TO 254 ONLINE BANKING',  fg ='purple', font =('Arial bold', '25'))
